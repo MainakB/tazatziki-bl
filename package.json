@@ -1,6 +1,6 @@
 {
   "name": "@kaniamb/tzatziki-bl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "@kaniamb/tzatziki-core": "^1.0.0",
     "typescript": "^4.7.4"
