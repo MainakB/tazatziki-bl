@@ -3,13 +3,16 @@ import { Given, When, Then } from "@cucumber/cucumber";
 import LoginPage from "../pages/login.page";
 // import SecurePage from "../../../sevices/secure-service/secure.page";
 
-const pages = {
-  login: LoginPage,
-};
+// const pages = {
+//   login: LoginPage,
+// };
 
-Given(/^I am on the (\w+) page$/, async (page) => {
-  await (pages as any)[page].open();
-});
+Given(
+  /^I am on the (\w+) page "(.*)"$/,
+  async (_page: string, path: string) => {
+    await LoginPage.open(path);
+  }
+);
 
 When(/^I login with (\w+) and (.+)$/, async (username, password) => {
   await LoginPage.login(username, password);

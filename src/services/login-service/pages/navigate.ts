@@ -10,6 +10,6 @@ export default class Page {
    * @param path path of the sub page (e.g. /path/to/page.html)
    */
   public open(path: string) {
-    return Tzatziki.Action.open(`https://the-internet.herokuapp.com/${path}`);
+    return Tzatziki.Action.open(path);
   }
 }

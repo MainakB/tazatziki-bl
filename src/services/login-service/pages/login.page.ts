@@ -10,7 +10,7 @@ class LoginPage extends Page {
     await Tzatziki.Action.enterText({
       pageObject: "user",
       inputText: username,
-      // replaceText:
+      replaceText: "username",
       //   browser.capabilities.browserName === "chrome" ? "abc" : "username",
     });
     await Tzatziki.Action.enterText({
@@ -25,8 +25,8 @@ class LoginPage extends Page {
   /**
    * overwrite specific options to adapt it to page object
    */
-  public open() {
-    return super.open("login");
+  public open(path: string) {
+    return super.open(path);
   }
 }
 

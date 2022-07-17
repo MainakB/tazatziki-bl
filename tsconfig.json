@@ -3,7 +3,7 @@
     "include": ["globals.d.ts","index.ts","src/**/*"],
     "compilerOptions": {
         "rootDir": "./",
-        "target": "es2019",
+        "target": "ES6",
         "moduleResolution": "node",
         "module":"commonjs",
         "outDir": "dist",
