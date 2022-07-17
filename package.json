@@ -1,0 +1,11 @@
+{
+  "name": "@kaniamb/tzatziki-bl",
+  "version": "0.1.0",
+  "dependencies": {
+    "@kaniamb/tzatziki-core": "^1.0.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "grunt test -c --suites=%suites% --customer=%customer% --browser=%browser%"
+  }
+}
