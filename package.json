@@ -1,13 +1,17 @@
 {
   "name": "@kaniamb/tzatziki-bl",
   "version": "0.1.3",
+  "description": "A @kaniamb/tzatziki-core test scaffolding.",
+  "files": [
+    "dist/**/*"
+  ],
   "dependencies": {
     "@kaniamb/tzatziki-core": "^1.0.0",
     "typescript": "^4.7.4"
   },
   "scripts": {
     "prepare": "npm run compile:all",
-    "version": "git add -A src",
+    "version": "npm run prepare && git add -A src",
     "postversion": "git push && git push --tags",
     "compile:all": "tsc --diagnostics"
   }
