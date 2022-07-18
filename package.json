@@ -1,6 +1,6 @@
 {
   "name": "@kaniamb/tzatziki-bl",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A @kaniamb/tzatziki-core test scaffolding.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
