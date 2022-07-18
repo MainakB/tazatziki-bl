@@ -1,1 +1,1 @@
-export * from "./locators";
+export * as loginPage from "./pages";
