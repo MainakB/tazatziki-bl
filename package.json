@@ -1,6 +1,6 @@
 {
   "name": "@kaniamb/tzatziki-bl",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A @kaniamb/tzatziki-core test scaffolding.",
   "files": [
     "dist/**/*"
