@@ -2,6 +2,7 @@ import { Types } from "@kaniamb/tzatziki-core";
 
 export const common_PO: Types.ILocatorMetadataObject = {
   user: {
+    poParentObject: "common_PO",
     description: "user id",
     locator: [
       {
@@ -11,6 +12,7 @@ export const common_PO: Types.ILocatorMetadataObject = {
     ],
   },
   password: {
+    poParentObject: "common_PO",
     description: "password",
     locator: [{ locatorType: Types.LocatorTypes.ID, locatorValue: "password" }],
   },
@@ -18,6 +20,7 @@ export const common_PO: Types.ILocatorMetadataObject = {
 
 export const user_preference_po: Types.ILocatorMetadataObject = {
   submit: {
+    poParentObject: "user_preference_po",
     description: "submit button",
     locator: [
       {

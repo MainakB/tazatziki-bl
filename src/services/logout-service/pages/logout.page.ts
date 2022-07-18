@@ -3,7 +3,7 @@
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class SecurePage {
+class LogoutPage {
   /**
    * define selectors using getter methods
    */
@@ -13,4 +13,4 @@ class SecurePage {
   }
 }
 
-export default new SecurePage();
+export default new LogoutPage();
